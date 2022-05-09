@@ -17,6 +17,7 @@ export class NodemailerMailAdapter implements MailAdapter {
       to: 'William Grohe <william.grohe@gmail.com>',
       subject,
       html: body,
+      
     })
 
   };
